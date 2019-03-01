@@ -7,6 +7,7 @@
     <groupId>com.ks.eureka</groupId>
     <artifactId>ks-eureka</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,5 +26,13 @@
             <version>2.0.2.RELEASE</version>
         </dependency>
     </dependencies>
+         <build>
+  <plugins>
+    <plugin>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</build>
     
 </project>
